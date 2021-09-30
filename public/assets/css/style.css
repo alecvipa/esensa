@@ -1,0 +1,23 @@
+.navbar{
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    background-color: #263b8b !important;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: #a4cd38 !important;
+}
+.bannerInicio{
+    height: 20rem;
+    background-image: url("/assets/images/bannerInicioEsensa.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: 0s linear;
+    background-position: 25% 85%;
+
+}

@@ -12,7 +12,7 @@
 }
 .bannerInicio{
     height: 30rem;
-    background-image: url("/assets/images/bannerDegradado.png");
+    background-image: url("/assets/images/bannerDegradado.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -74,22 +74,29 @@
 }
 .firstSlide{
     height: 25rem;
-    background-image: url("/assets/images/img3997.jpg");
+    background-image: url("/assets/images/45.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .secondSlide{
     height: 25rem;
-    background-image: url("/assets/images/img3921.jpg");
+    background-image: url("/assets/images/46.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.nosotrosHistoriaImg{
+    height: 25rem;
+    background-image: url("/assets/images/47.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5%;
+}
 .carouselDiv{
 }
 .carousel-inner{
-    height: 44rem;
     border-radius: 8px;
     margin-bottom: 10%;
     margin-top: 10%;
@@ -121,6 +128,19 @@
 }
 .imgLogoFooter{
     margin-left: 130%;
+}
+.nosotrosDiv{
+    margin-top: 4%;
+}
+.divNosotrosValores{
+    background-color: #263a8ba1;
+    padding-top: 5%;
+    color: white;
+    height: 50rem;
+}
+.nuestrosProductosDivNosotros{
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 @media(min-width:992px){
     .infoProductos{
@@ -168,7 +188,7 @@
         font-size: 2.5rem;
     }
     .carousel-inner{
-        height: 34rem;
+        height: 21rem;
     }
     .bannerInicio{
         height: 25rem;
@@ -179,7 +199,9 @@
     .jumboInicioNosotrosDiv{
         margin-bottom:7%;
     }
-
+    .divNosotrosValores{
+        height: 61rem;
+    }
     
 }
 @media(min-width:360px) and (max-width: 400px){
@@ -187,6 +209,10 @@
         margin-left: 25%;
         font-weight: bolder;
     }
+    .nosotrosHistoriaImg{
+        height: 19rem;
+    }
+    
 
 }
 

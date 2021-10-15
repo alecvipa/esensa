@@ -94,6 +94,17 @@
     background-size: cover;
     margin-bottom: 5%;
 }
+.limpiandoBanner{
+    height: 20rem;
+    background-image: url("/assets/images/limpiando.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5%;
+    background-attachment: fixed;
+    transition: 0s linear;
+    background-position: inherit;
+}
 .carouselDiv{
 }
 .carousel-inner{
@@ -141,6 +152,65 @@
 .nuestrosProductosDivNosotros{
     margin-top: 5%;
     margin-bottom: 5%;
+}
+.esensaTitleLimpiandoBanner{
+    color: white;
+    padding-top: 20%;
+}
+/* Productos */
+.item-33-buscas {
+	flex: 0 0 33%;
+	max-width: 33%;
+	height: 0%;
+	margin: 0 auto;
+}
+.item-33-buscas .content-item {
+	padding: 10px;
+}
+.content-item .text-nuestras,
+.content-item .text-nuestras-p,
+.content-item .text-nuestras-sol,
+.content-item .text-nuestras-p-sol{
+  transition: all ease 50ms;
+}
+
+
+.content-item:hover .pic img {
+  opacity: 0.5;
+}
+
+
+.text-nuestras{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    color: #000;
+	font-weight: 600;
+    font-size: 21px;
+	white-space: nowrap;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.content-item:hover .text-nuestras {
+     color:#FEBE31;
+	text-shadow: 1px 1px #FEBE31;
+}
+
+.content-item:hover {
+     color:#FEBE31;
+	text-shadow: 1px 1px #FEBE31;
+}
+
+.content-item:hover{
+     color:#FEBE31;
+	text-shadow: 1px 1px #FEBE31;
+}
+
+
+.content-item:hover{
+     color:#FEBE31;
+	text-shadow: 1px 1px #FEBE31;
 }
 @media(min-width:992px){
     .infoProductos{

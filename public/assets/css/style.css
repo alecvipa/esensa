@@ -184,18 +184,18 @@
     position: absolute;
     top: 45%;
     left: 50%;
-    color: #000;
+    color: #c9f55b;
 	font-weight: 600;
     font-size: 21px;
 	white-space: nowrap;
     transform: translate(-50%, -50%);
     text-align: center;
+    background-color: #263a8ba1;
+    border-radius: 8px;
+    padding: 1%;
+    
 }
 
-.content-item:hover .text-nuestras {
-     color:#FEBE31;
-	text-shadow: 1px 1px #FEBE31;
-}
 
 .content-item:hover {
      color:#FEBE31;
@@ -212,6 +212,7 @@
      color:#FEBE31;
 	text-shadow: 1px 1px #FEBE31;
 }
+
 @media(min-width:992px){
     .infoProductos{
         height: 20rem;
@@ -272,6 +273,9 @@
     .divNosotrosValores{
         height: 61rem;
     }
+    .text-nuestras{
+        font-size: 12px !important;
+    }
     
 }
 @media(min-width:360px) and (max-width: 400px){
@@ -285,4 +289,13 @@
     
 
 }
-
+@media (max-width:768px){
+	
+	.item-33-buscas {
+		flex: 0 0 50%;
+		max-width: 50%;
+		height: 0%;
+		margin: 0 auto;
+	}
+	
+}

@@ -225,6 +225,44 @@
     position: relative;
     left: 30%;
 }
+.overolesDiv{
+    margin-bottom: 5%;
+}
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    box-sizing: border-box;
+}
+
+#video {
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    background: #C1C1C1;
+    border: 10px solid #C1C1C1;
+    border-radius: 16px;
+}
+
+#video iframe,
+#video object,
+#video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+article {
+    box-sizing: border-box;
+    padding: 50px 25px;
+    width: 100%;
+    max-width: 800px;
+}
+
 
 @media(min-width:992px){
     .infoProductos{

@@ -38,21 +38,10 @@ app.get('/', function (req, res) {
 app.get('/inicio', function (req, res) {
     res.render('inicio')
 });
-app.get('/nosotros', function (req, res) {
-    res.render('nosotros')
-});
-app.get('/productos', function (req, res) {
-    res.render('productos')
-});
-app.get('/servicios', function (req, res) {
-    res.render('servicios')
-});
-app.get('/contacto', function (req, res) {
-    res.render('contacto')
-});
-app.get('/privacidad', function (req, res) {
-    res.render('privacidad')
-});
+app.get('/:params?', function(req, res){
+    var params = req.params.params;
+    res.render(params);
+})
 
 
 // Nodemailer route

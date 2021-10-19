@@ -263,6 +263,9 @@ article {
     max-width: 800px;
 }
 
+.zapatonIntem{
+    margin-bottom: 5%;
+}
 
 @media(min-width:992px){
     .infoProductos{
@@ -330,6 +333,9 @@ article {
     .carouselItemOverolesImg{
         position: relative;
         left: 24%;
+    }
+    .zapatonIntem{
+        margin-bottom: 15%;
     }
     
 }

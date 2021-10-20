@@ -263,7 +263,7 @@ article {
     max-width: 800px;
 }
 
-.zapatonIntem{
+.zapatonIntem, .bataItem, .cubrezapatosItem, .desechablesItem{
     margin-bottom: 5%;
 }
 
@@ -334,7 +334,7 @@ article {
         position: relative;
         left: 24%;
     }
-    .zapatonIntem{
+    .zapatonIntem, .bataItem, .cubrezapatosItem, .desechablesItem{
         margin-bottom: 15%;
     }
     

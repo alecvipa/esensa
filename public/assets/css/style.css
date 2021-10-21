@@ -280,9 +280,10 @@ article {
 .rowLimpieza{
     margin-top: 5%;
 }
-.perfexDiv{
+.perfexDiv, .contecDiv, .viledaDiv{
     margin-bottom: 10%;
 }
+
 
 @media(min-width:992px){
     .infoProductos{
@@ -362,6 +363,10 @@ article {
     }
     .artDesechablesDiv{
         margin-bottom: 10%;
+    }
+    .cardContec{
+        position: relative;
+        left: 7%;
     }
     
     

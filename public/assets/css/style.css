@@ -266,6 +266,23 @@ article {
 .zapatonIntem, .bataItem, .cubrezapatosItem, .desechablesItem{
     margin-bottom: 5%;
 }
+.logoPerfex, .logoVileda, .fontAwesomBerkshire, .logoContec{
+    width: 80%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.fontAwesomBerkshire{
+    font-size: 8rem !important;
+}
+.artDesechablesDiv{
+    margin-bottom: 5%;
+}
+.rowLimpieza{
+    margin-top: 5%;
+}
+.perfexDiv{
+    margin-bottom: 10%;
+}
 
 @media(min-width:992px){
     .infoProductos{
@@ -337,6 +354,16 @@ article {
     .zapatonIntem, .bataItem, .cubrezapatosItem, .desechablesItem{
         margin-bottom: 15%;
     }
+    .logoPerfex, .logoVileda, .fontAwesomBerkshire, .logoContec{
+        width: 50%;
+    }
+    .titleLimpieza{
+        margin-top: 10%;
+    }
+    .artDesechablesDiv{
+        margin-bottom: 10%;
+    }
+    
     
 }
 @media(min-width:360px) and (max-width: 400px){

@@ -374,6 +374,11 @@ article {
     .btnServicios{
         margin-bottom: 15%;
     }
+    .titleServicios{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        font-size: 1.5rem !important;
+    }
     
     
 }

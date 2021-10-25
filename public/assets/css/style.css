@@ -280,11 +280,20 @@ article {
 .rowLimpieza{
     margin-top: 5%;
 }
-.perfexDiv, .contecDiv, .viledaDiv, .tapetesAd{
+.perfexDiv, .contecDiv, .viledaDiv, .tapetesAd {
     margin-bottom: 10%;
 }
+.btnCatalogo{
+    margin-bottom: 5%;
+}
+.contactoDiv{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
-
+.itemContacto{
+    margin-top: 10%;
+}
 @media(min-width:992px){
     .infoProductos{
         height: 20rem;
@@ -378,6 +387,12 @@ article {
         margin-top: 10%;
         margin-bottom: 10%;
         font-size: 1.5rem !important;
+    }
+    .btnCatalogo{
+        margin-bottom: 10%;
+    }
+    .contactoDiv{
+        margin-top: 10%;
     }
     
     

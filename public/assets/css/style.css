@@ -245,6 +245,9 @@
     border: 10px solid #C1C1C1;
     border-radius: 16px;
 }
+.titleCardProductos{
+    font-size: 1.5rem;
+}
 
 #video iframe,
 #video object,
@@ -307,6 +310,9 @@ article {
     }
 }
 @media(max-width:991px){
+    .titleCardProductos{
+        font-size: 1rem;
+    }
     .infoProductos{
         height: 20rem;
         background-image: url("/assets/images/bannerInicioEsensa.png");

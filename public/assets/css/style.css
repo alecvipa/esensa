@@ -310,6 +310,9 @@ article {
     }
 }
 @media(max-width:991px){
+    .nosotrosHistoriaImg{
+        margin-bottom: 10%;
+    }
     .titleCardProductos{
         font-size: 1rem;
     }

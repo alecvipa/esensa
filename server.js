@@ -66,7 +66,7 @@ app.post("/ajax/email", function (request, response) {
     var mail = {
         from: '"Team: Xyncs Web Studio',
         to: 'hebrit_626@hotmail.com',
-        subject: '¡Alguien ha dejado sus datos en tu sitio web!',
+        subject: '¡Alguien ha dejado sus datos en ESENSA!',
         html: htmlBody
     };
     transporter.sendMail(mail, function (err, info) {

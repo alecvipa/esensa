@@ -16,8 +16,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    transition: 0s linear;
+    /* background-attachment: fixed;
+    transition: 0s linear; */
     background-position: 25% 85%;
 }
 .logoBannerInicio{
@@ -304,9 +304,9 @@ article {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-attachment: fixed;
+        /* background-attachment: fixed;
         transition: 0s linear;
-        background-position: 25% 85%;
+        background-position: 25% 85%; */
     }
 }
 @media(max-width:991px){
